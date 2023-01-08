@@ -140,5 +140,5 @@ app.get('/sortedData',  async (req, res) => {
 })
 
 app.listen(process.env.PORT || 5000, () => {
-    console.log("Listening")
+    console.log(`Listening at ${process.env.PORT}`)
 })
